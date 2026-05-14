@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.tox/
+.coverage
+.eggs/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Demo outputs (regenerable via examples)
+# Note: probe_convergence.png and probe_error_curve.png are kept in
+# assets/ as committed reference figures. Run-time outputs in the root
+# or current directory are ignored.
+/probe_*.png
+/fit_*.png
+*.tmp.png
