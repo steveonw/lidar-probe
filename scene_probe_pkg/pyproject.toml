@@ -1,0 +1,9 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scene_probe"
+version = "0.1.0"
+description = "A LiDAR probe tool for scene analysis"
+requires-python = ">=3.8"
